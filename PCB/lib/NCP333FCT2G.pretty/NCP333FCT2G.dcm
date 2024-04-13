@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP333FCT2G
+D ON Semiconductor NCP333FCT2G, Load Share Controller, 1.2  5.5V, 4-Pin, WLCSP
+K
+F https://www.onsemi.com/pub/Collateral/NCP333-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -5,4 +5,48 @@
 	(uuid "e01ac52a-5064-4779-8488-5886e570c6bf")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "USB_DP"
+		(shape input)
+		(at 140.97 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92c89850-d20c-4d39-a349-14568d170295")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6672 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DN"
+		(shape input)
+		(at 140.97 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1f99e6d-0299-41c2-b7f8-53e1da1cad64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 )
