@@ -3,4 +3,5 @@
   (lib (name "NCP333FCT2G")(type "KiCad")(uri "${KIPRJMOD}/lib/NCP333FCT2G.pretty")(options "")(descr ""))
   (lib (name "TDC7200PWR")(type "KiCad")(uri "${KIPRJMOD}/lib/TDC7200PWR.pretty")(options "")(descr ""))
   (lib (name "calathea")(type "KiCad")(uri "${KIPRJMOD}/calathea")(options "")(descr ""))
+  (lib (name "TLC59283RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/TLC59283RGER.pretty")(options "")(descr ""))
 )
