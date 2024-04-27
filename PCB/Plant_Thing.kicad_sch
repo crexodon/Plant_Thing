@@ -107,6 +107,114 @@
 				)
 			)
 		)
+		(symbol "Device:Antenna"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2041,6 +2149,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 96.52) (xy 45.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e73052-ea18-4f02-b15a-f23c6b0d2d0b")
+	)
+	(wire
+		(pts
+			(xy 177.8 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c179064-b7a9-48e3-a6ae-46e12dcfc2c9")
+	)
+	(wire
+		(pts
 			(xy 59.69 104.14) (xy 59.69 105.41)
 		)
 		(stroke
@@ -2531,6 +2659,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 99.06) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df93d65-f06b-416a-be92-ecbe943d493a")
+	)
+	(wire
+		(pts
 			(xy 144.78 85.09) (xy 147.32 85.09)
 		)
 		(stroke
@@ -2671,6 +2809,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 111.76) (xy 180.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12eb0bf-a152-4c8d-9c9d-692e057699d0")
+	)
+	(wire
+		(pts
 			(xy 199.39 77.47) (xy 199.39 76.2)
 		)
 		(stroke
@@ -2768,6 +2916,16 @@
 			(type default)
 		)
 		(uuid "b66355be-0b9f-44da-ba74-5fee7112e9eb")
+	)
+	(wire
+		(pts
+			(xy 53.34 96.52) (xy 45.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8724fa-c823-411a-9b94-5df1b0764952")
 	)
 	(wire
 		(pts
@@ -3349,6 +3507,28 @@
 			)
 		)
 	)
+	(global_label "P0.08_EN_LED"
+		(shape input)
+		(at 180.34 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3410f8ee-8f03-40f6-94f5-44ef5254fbb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.6903 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DEC6"
 		(shape input)
 		(at 179.07 25.4 0)
@@ -3362,6 +3542,28 @@
 		(uuid "3a5f43c1-f62f-4771-b911-f36fdd814a01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.9537 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.20_BLANK"
+		(shape input)
+		(at 180.34 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41c0946f-f922-47af-b5d6-ac07f9d9f08d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7833 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,28 +3683,6 @@
 			)
 		)
 	)
-	(global_label "P0.28_LED_R"
-		(shape input)
-		(at 180.34 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "590d4e74-58fb-4cfe-9be3-566b6c2ba018")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4808 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P0.06_EN_BATT_MEASURE"
 		(shape input)
 		(at 180.34 106.68 0)
@@ -3516,6 +3696,28 @@
 		(uuid "5d4f1fa3-af1b-42cd-8b72-f08b1b351808")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.1526 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.29_SCLK"
+		(shape input)
+		(at 180.34 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e8f545a-ac7f-41d8-8f5b-3340612017c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.5737 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,28 +3749,6 @@
 			)
 		)
 	)
-	(global_label "P0.29_LED_G"
-		(shape input)
-		(at 180.34 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77b24a40-8b17-4896-be44-7d905f90a8f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4808 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P0.17_PG"
 		(shape input)
 		(at 180.34 121.92 0)
@@ -3591,7 +3771,7 @@
 			)
 		)
 	)
-	(global_label "P0.30_LED_B"
+	(global_label "P0.30_SIN"
 		(shape input)
 		(at 180.34 132.08 0)
 		(fields_autoplaced yes)
@@ -3601,9 +3781,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a52ad6cb-03ae-4444-b294-452ba629bcd8")
+		(uuid "a34c323e-0bd6-43ca-8d80-9828dd4c5e9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4808 132.08 0)
+			(at 192.9409 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,6 +3877,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.28_LAT"
+		(shape input)
+		(at 180.34 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be1b9194-2b8f-4c03-8e54-88710006bec6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8804 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.03_TDT_MEASURE"
+		(shape input)
+		(at 180.34 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2810785-97fa-45d8-8cd2-c17bbc96ec7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.6169 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6632,6 +6856,73 @@
 			(project "Plant_Thing"
 				(path "/3604ffe7-6852-4862-a71a-75c04c0147cb"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 45.72 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0008a4f-2d56-4e93-acb1-089e5c94dcf4")
+		(property "Reference" "AE1"
+			(at 48.26 81.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 48.26 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4de00d21-b6b5-474d-9083-efee9a3831b4")
+		)
+		(instances
+			(project "Plant_Thing"
+				(path "/3604ffe7-6852-4862-a71a-75c04c0147cb"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
