@@ -3,4 +3,6 @@
   (lib (name "NCP333FCT2G")(type "KiCad")(uri "${KIPRJMOD}/lib/NCP333FCT2G.kicad_sym")(options "")(descr ""))
   (lib (name "TDC7200PWR")(type "KiCad")(uri "${KIPRJMOD}/lib/TDC7200PWR.kicad_sym")(options "")(descr ""))
   (lib (name "TLC59283")(type "KiCad")(uri "${KIPRJMOD}/lib/TLC59283.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/lib/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "X322532MOB4SI")(type "KiCad")(uri "${KIPRJMOD}/lib/X322532MOB4SI.kicad_sym")(options "")(descr ""))
 )

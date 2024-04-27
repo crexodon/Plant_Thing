@@ -1,4 +1,4 @@
-23178027855029387
+23181456363036583
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93988,6 +93988,13 @@ igbt diode module
 0
 25
 25
+USB-C-SMD_TYPE-C-6PIN-2MD-073
+USB-C-SMD_TYPE-C-6PIN-2MD-073
+
+
+0
+18
+14
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -94772,6 +94779,13 @@ Varistor VF
 0
 2
 2
+X322532MOB4SI
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
 calathea
 calathea_copper
 
