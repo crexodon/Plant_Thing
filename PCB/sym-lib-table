@@ -5,4 +5,6 @@
   (lib (name "TLC59283")(type "KiCad")(uri "${KIPRJMOD}/lib/TLC59283.kicad_sym")(options "")(descr ""))
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/lib/easyeda2kicad.kicad_sym")(options "")(descr ""))
   (lib (name "X322532MOB4SI")(type "KiCad")(uri "${KIPRJMOD}/lib/X322532MOB4SI.kicad_sym")(options "")(descr ""))
+  (lib (name "HY32768KSMD3068YA2R30")(type "KiCad")(uri "${KIPRJMOD}/lib/HY32768KSMD3068YA2R30.kicad_sym")(options "")(descr ""))
+  (lib (name "SRV05-4")(type "KiCad")(uri "${KIPRJMOD}/lib/SRV05-4.kicad_sym")(options "")(descr ""))
 )

@@ -6,4 +6,6 @@
   (lib (name "TLC59283RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/TLC59283RGER.pretty")(options "")(descr ""))
   (lib (name "USB-C-SMD_TYPE-C-6PIN-2MD-073")(type "KiCad")(uri "${KIPRJMOD}/lib/USB-C-SMD_TYPE-C-6PIN-2MD-073.pretty")(options "")(descr ""))
   (lib (name "X322532MOB4SI")(type "KiCad")(uri "${KIPRJMOD}/lib/X322532MOB4SI.pretty")(options "")(descr ""))
+  (lib (name "HY32768KSMD3068YA2R30")(type "KiCad")(uri "${KIPRJMOD}/lib/HY32768KSMD3068YA2R30.pretty")(options "")(descr ""))
+  (lib (name "SRV05-4")(type "KiCad")(uri "${KIPRJMOD}/lib/SRV05-4.pretty")(options "")(descr ""))
 )
