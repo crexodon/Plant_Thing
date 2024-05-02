@@ -1,4 +1,4 @@
-23181456363036583
+23188315727893775
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56699,6 +56699,27 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+G-Switch
+SW-SMD_MK-12C02-G020
+
+
+0
+9
+7
+G-Switch
+SW-SMD_MS-22D28-G020
+
+
+0
+8
+6
+HY32768KSMD3068YA2R30
+CRYSTAL-SMD_L7.0-W3.2-LS7.5
+
+
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -87190,6 +87211,13 @@ Bourns rotary encoder, PEC12R, with switch, with bushing, vertical shaft, 17.5mm
 rotary encoder
 0
 7
+6
+SRV05-4
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+
+
+0
+6
 6
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
