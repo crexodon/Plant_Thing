@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NCP333FCT2G")(type "KiCad")(uri "${KIPRJMOD}/lib/NCP333FCT2G.pretty")(options "")(descr ""))
+  (lib (name "TDC7200PWR")(type "KiCad")(uri "${KIPRJMOD}/lib/TDC7200PWR.pretty")(options "")(descr ""))
+  (lib (name "calathea")(type "KiCad")(uri "${KIPRJMOD}/calathea")(options "")(descr ""))
+  (lib (name "TLC59283RGER")(type "KiCad")(uri "${KIPRJMOD}/lib/TLC59283RGER.pretty")(options "")(descr ""))
+  (lib (name "USB-C-SMD_TYPE-C-6PIN-2MD-073")(type "KiCad")(uri "${KIPRJMOD}/lib/USB-C-SMD_TYPE-C-6PIN-2MD-073.pretty")(options "")(descr ""))
+  (lib (name "X322532MOB4SI")(type "KiCad")(uri "${KIPRJMOD}/lib/X322532MOB4SI.pretty")(options "")(descr ""))
+  (lib (name "HY32768KSMD3068YA2R30")(type "KiCad")(uri "${KIPRJMOD}/lib/HY32768KSMD3068YA2R30.pretty")(options "")(descr ""))
+  (lib (name "SRV05-4")(type "KiCad")(uri "${KIPRJMOD}/lib/SRV05-4.pretty")(options "")(descr ""))
+  (lib (name "G-Switch")(type "KiCad")(uri "${KIPRJMOD}/lib/G-Switch.pretty")(options "")(descr ""))
+)
