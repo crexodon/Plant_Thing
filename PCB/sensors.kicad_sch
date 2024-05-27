@@ -1953,6 +1953,28 @@
 			)
 		)
 	)
+	(global_label "P0.04_AIN2"
+		(shape input)
+		(at 92.71 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "285cc88b-ccd4-4d1a-8f98-c5978cd73950")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.3995 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P0.14_SCL"
 		(shape input)
 		(at 177.8 93.98 180)
@@ -1997,7 +2019,7 @@
 			)
 		)
 	)
-	(global_label "P0.04_AGPIO"
+	(global_label "P0.05_AIN3"
 		(shape input)
 		(at 92.71 92.71 0)
 		(fields_autoplaced yes)
@@ -2007,9 +2029,9 @@
 			)
 			(justify left)
 		)
-		(uuid "89057dc5-d642-4fc3-b7e5-475e7a15ed9c")
+		(uuid "a273ace2-60a5-4a98-8651-b8195aa3c717")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.73 92.71 0)
+			(at 106.3995 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,74 +3161,6 @@
 			(project "Plant_Thing"
 				(path "/3604ffe7-6852-4862-a71a-75c04c0147cb/38766e62-e2f9-438f-aa7f-b6d1382d0577"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 95.25 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c182efde-97ea-42d2-a49c-5bd582dce4da")
-		(property "Reference" "#PWR070"
-			(at 99.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 95.2501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "376aca66-ef10-41ad-84b2-6f3bf64bed8c")
-		)
-		(instances
-			(project "Plant_Thing"
-				(path "/3604ffe7-6852-4862-a71a-75c04c0147cb/38766e62-e2f9-438f-aa7f-b6d1382d0577"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
